@@ -1,0 +1,29 @@
+{
+  "name": "stackblitz-starters-zcgogp",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7.22.1",
+    "@babel/plugin-proposal-private-property-in-object": "7.21.0",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "5.11.16",
+    "@mui/material": "5.13.2",
+    "@types/react": "18.2.7",
+    "axios": "1.4.0",
+    "events": "3.3.0",
+    "https": "^1.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}

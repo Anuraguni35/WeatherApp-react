@@ -1,0 +1,78 @@
+.LeftContainer {
+  background-image: none;
+  color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.weatherLogo {
+  background-image: none;
+  height: 20%;
+}
+.weatherInfo {
+  background-image: none;
+  height: 10%;
+  font-size: 5vh;
+}
+.SearchCity {
+  color: white;
+  background-image: none;
+  height: 4vh;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1.5px solid white;
+  width: 70%;
+  /* align-self: center; */
+}
+.SearchSec {
+  background-image: none;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+}
+.SearchSec [type='text'] {
+  outline: none;
+}
+.searchbtn {
+  background-image: none;
+  height: 5vh;
+  margin-left: 1vh;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+}
+.searchbtn:hover {
+  background-color: white;
+}
+.searchIcon {
+  background-image: none;
+  height: 4vh;
+}
+.tableSec {
+  background-image: none;
+  height: 4vh;
+  display: flex;
+  justify-content: space-around;
+}
+.cityName {
+  text-align: center;
+  background-image: none;
+  height: 7vh;
+  font-size: 4vh;
+  font-family: 'Roboto', sans-serif;
+}
+.tableContent {
+  background-image: none;
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+.BgRemove {
+  margin-top: 1vh;
+  background-image: none;
+  height: 1px;
+  color: white;
+  background-color: white;
+  width: 85%;
+  align-self: center;
+}

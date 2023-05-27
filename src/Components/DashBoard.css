@@ -1,0 +1,17 @@
+.DashBoard {
+  background-image: none;
+  display: flex;
+  padding: 2vh;
+}
+.Logo {
+  width: 60%;
+  background-image: none;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+.logoImg {
+  background-image: none;
+  height: 10vh;
+}

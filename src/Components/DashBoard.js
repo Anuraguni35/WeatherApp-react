@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './DashBoard.css';
 import LeftSec from './LeftSec.js';
-import RightSec from './RightSec.js';
+ 
 export default function DashBoard() {
   const [cityDetails, setCityDetails] = useState({
     cityName: 'Delhi',

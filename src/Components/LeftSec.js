@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './LeftSec.css';
 import SearchIcon from '@mui/icons-material/Search';
-import axios from 'axios';
+ 
 
 export default function LeftSec({
   cityDetails,
@@ -40,11 +40,12 @@ export default function LeftSec({
 
   useEffect(() => {
     getCurrentWeather();
+     // eslint-disable-next-line
   }, [city]);
   return (
     <div className="LeftContainer">
       <div className="weatherLogo">
-        <img className="logoImg" src={logo} />
+        <img className="logoImg" src={logo} alt={cityDetails.wethertype} />
       </div>
       <div className="weatherInfo">{cityDetails.wethertype}</div>
       <div className="SearchSec">
